@@ -1,0 +1,131 @@
+:root {
+  /* --green: #64FFDA; */
+  --green: #FFC107;
+  --nav-muted-white: #a19a8f;
+  --navy-shadow: #01112a;
+  --nav-height: 100px;
+  --font-mono: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  --fz-xxs: 15px;
+}
+
+.navbar {
+  position: fixed;
+  height: var(--nav-height);
+  width: 100%;
+  background-color: --dark-bg;
+  transition: transform 0.4s;
+  backdrop-filter: blur(10px);
+  z-index: 10000;
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.visible {
+  transform: translateY(0);
+}
+
+.hidden {
+  transform: translateY(-100%);
+  box-shadow: 0 10px 30px -10px var(--navy-shadow);
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 20px;
+  font-family: var(--font-mono);
+  font-size: var(--fz-xxs);
+  color: var(--green);
+  user-select: none;
+}
+
+.navbar ul a {
+  text-decoration: none;
+  color: var(--nav-muted-white);
+  cursor: pointer;
+}
+
+.navbar ul a:hover {
+  color: var(--green);
+  transition: 0.9s;
+}
+
+.navbar .Resume-button {
+  color: var(--green);
+  padding: 10px 20px;
+  border: 0.09rem solid;
+  border-radius: 5px;
+}
+
+.navbar .mobile {
+  display: none;
+}
+
+/* Animations */
+.fadedown-enter-done {
+  animation: fade-in 0.5s ease-in-out;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+    visibility: visible;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Media Queries are here */
+/* Tablet */
+@media screen and (max-width: 768px) {
+  .navbar .mobile {
+    display: flex;
+    height: 30px;
+    width: 30px;
+    /* background-color: #64FFDA; */
+    border-radius: 5px;
+    margin: 20px;
+  }
+
+  .navbar .mobile svg rect {
+    fill: var(--green);
+    height: 12px;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .navbar-list {
+    position: fixed;
+    right: -400px;
+    top: var(--nav-height);
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #010a17fb;
+    transition: 0.3s ease-in-out;
+  }
+
+  .navbar-active {
+    right: 0px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 425px) {
+  .navbar-list {
+    width: 70vw;
+  }
+}
