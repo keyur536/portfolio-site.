@@ -14,8 +14,8 @@ export default function contact() {
                 </div>
             </div>
             <footer className='Contact_Footer'>
-                <p>Redesigned & Built by Akash</p>
-                <p>Inspired by brittanychiang.com</p>
+                {/* <p>Redesigned & Built by Keyur</p> */}
+                {/* <p>Inspired by brittanychiang.com</p> */}
             </footer>
         </section>
     )

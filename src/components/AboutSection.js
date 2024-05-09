@@ -39,16 +39,6 @@ export default function AboutSection() {
             projects.These have ignited my passion for creating impactful
             products.
           </p>
-          {/* <p> */}
-          {/* Throughout my journey, I've been privileged to engage in a wide
-            range of projects, encompassing both startup ventures and
-            participation in numerous{" "}
-            <span className="highlights">National</span> and{" "}
-            <span className="highlights">International hackathons</span>. These
-            experiences have served as invaluable opportunities to contribute to
-            the creation of products that truly make a difference in people's
-            lives..
-          </p> */}
 
           <p>
             Currently, I'm driven by the development of accessible and engaging
@@ -58,11 +48,12 @@ export default function AboutSection() {
           </p>
           <p>Here are a few technologies I’ve been working with recently:</p>
           <ul className="skill-list">
-            <li>Django Rest Framework</li>
+            {/* <li>Django Rest Framework</li> */}
             <li>Flutter</li>
             <li>AWS</li>
             <li>React</li>
             <li>Firebase</li>
+            <li>Nodejs</li>
           </ul>
         </div>
         <div className="image">
