@@ -1,8 +1,7 @@
-import React from 'react'
-import './HeroSection.css'
+import React from "react";
+import "./HeroSection.css";
 
 export default function HeroSection() {
-
   return (
     <div className="HeroSection-content">
       <div className="content">
@@ -56,7 +55,7 @@ export default function HeroSection() {
           </a>
 
           <a
-            href="https://www.instagram.com/theskyspace/"
+            href="https://www.instagram.com/keyur___04/"
             target="_blank"
             rel="noreferrer"
           >
@@ -76,7 +75,7 @@ export default function HeroSection() {
           </a>
 
           <a
-            href="https://github.com/theskyspace"
+            href="https://github.com/keyur536"
             target="_blank"
             rel="noreferrer"
           >
