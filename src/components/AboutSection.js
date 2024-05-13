@@ -50,9 +50,9 @@ export default function AboutSection() {
           <ul className="skill-list">
             {/* <li>Django Rest Framework</li> */}
             <li>Flutter</li>
+            <li>Firebase</li>
             <li>AWS</li>
             <li>React</li>
-            <li>Firebase</li>
             <li>Nodejs</li>
           </ul>
         </div>

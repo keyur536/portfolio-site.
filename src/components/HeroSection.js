@@ -19,7 +19,7 @@ export default function HeroSection() {
           style={{ animationDelay: "1400ms" }}
         >
           <a
-            href="https://www.linkedin.com/in//keyur-chaudhari-614a73224/"
+            href="https://www.linkedin.com/in//keyur536/"
             rel="noreferrer"
             target="_blank"
           >
@@ -38,7 +38,7 @@ export default function HeroSection() {
           </a>
 
           <a
-            href="https://twitter.com/theskyspace1"
+            href="https://twitter.com/KeyurCh46797591"
             target="_blank"
             rel="noreferrer"
           >
