@@ -5,7 +5,7 @@ export default function contact() {
   return (
     <section className="ContactSection fadein" id="ContactSection">
       <div className="contact-content">
-        <h3>04. What's next?</h3>
+        <h3>03. What's next?</h3>
         <h1>Get In Touch</h1>
         <p className="contact-p">
           I'm eagerly seeking opportunities that provide challenges and foster

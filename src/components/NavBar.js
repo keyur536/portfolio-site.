@@ -62,7 +62,7 @@ export default function NavBar() {
             Work
           </Link>
         </ul>
-        <ul style={{ animationDelay: "100ms" }} className="fadedown-enter-done">
+        {/* <ul style={{ animationDelay: "100ms" }} className="fadedown-enter-done">
           03.{" "}
           <Link
             to="ExperienceSection"
@@ -73,9 +73,9 @@ export default function NavBar() {
           >
             Experience
           </Link>{" "}
-        </ul>
+        </ul> */}
         <ul style={{ animationDelay: "300ms" }} className="fadedown-enter-done">
-          04.{" "}
+          03.{" "}
           <Link
             to="ContactSection"
             spy={true}

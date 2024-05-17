@@ -2,7 +2,7 @@ import "./App.css";
 import AboutSection from "./components/AboutSection";
 import HeroSection from "./components/HeroSection";
 import NavBar from "./components/NavBar";
-import Experience from "./components/experience";
+// import Experience from "./components/experience";
 import Contact from "./components/contact";
 import Work from "./components/work";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
@@ -27,7 +27,7 @@ function Home() {
       <HeroSection />
       <AboutSection />
       <Work />
-      <Experience />
+      {/* <Experience /> */}
       <Contact />
     </div>
   );
