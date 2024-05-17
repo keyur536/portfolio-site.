@@ -18,13 +18,14 @@ export default function Work() {
               <h3 className="project-title">NYAYAK</h3>
               <div className="project-decs">
                 <p>
-                  Built a dynamic learning product in a{" "}
+                  Developed a legal service platform during a{" "}
                   <span className="highlights">36-hour hackathon</span>,
-                  prioritizing personalized syllabi and accessibility.
-                  Integrated 24x7 doubt assistance using{" "}
-                  <span className="highlights">generative AI</span> for
-                  real-time support. Created a seamless learning environment
-                  with tailored guidance and prompt answers to user queries.
+                  connecting users with legal providers and fostering a
+                  supportive community. The platform integrates an AI-powered
+                  chatbot for real-time legal guidance using{" "}
+                  <span className="highlights">generative AI</span> , along with
+                  one-to-one chat functionality to facilitate direct
+                  communication.
                 </p>
               </div>
               <ul className="project-tech-list">
