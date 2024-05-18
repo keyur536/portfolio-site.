@@ -32,7 +32,6 @@ export default function Work() {
                 <li>LLM(AI)</li>
                 <li>Flutter</li>
                 <li>Firebase</li>
-                {/* <li>API</li> */}
               </ul>
             </div>
             <div>
@@ -70,9 +69,8 @@ export default function Work() {
                 </p>
               </div>
               <ul className="project-tech-list">
-                <li>REST APIs</li>
-                <li>Django</li>
-                <li>HTML/CSS</li>
+                <li>Flutter</li>
+                <li>Firebase</li>
               </ul>
             </div>
             <div>
@@ -113,9 +111,8 @@ export default function Work() {
                 </p>
               </div>
               <ul className="project-tech-list">
+                <li>Flutter</li>
                 <li>Firebase</li>
-                <li>Python</li>
-                <li>Java</li>
                 <li>Android Studio</li>
               </ul>
             </div>
