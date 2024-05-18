@@ -100,20 +100,16 @@ export default function Work() {
               <h3 className="project-title">Shubh-Yatra</h3>
               <div className="project-decs">
                 <p>
-                  Developed an app for 1k+ NDA aspirants, focusing on
-                  exceptional UI/UX and engineering practices for an optimal
-                  user experience. Built with{" "}
-                  <span className="highlights">Java on Android Studio IDE</span>
-                  , it integrated Firebase's real-time database for seamless
-                  data management using JSON packets. Implemented offline exam
-                  functionality, enabling students to take exams without
-                  internet access and evaluate results.
+                  Developed an app for bus ticket reservation, focusing on UI/UX
+                  and engineering practices for an optimal user experience.
+                  Built with <span className="highlights">Flutter</span>, it
+                  integrated Firebase's real-time database for seamless data
+                  management.
                 </p>
               </div>
               <ul className="project-tech-list">
                 <li>Flutter</li>
                 <li>Firebase</li>
-                <li>Android Studio</li>
               </ul>
             </div>
             {/* <div>
