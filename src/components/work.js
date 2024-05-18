@@ -62,17 +62,11 @@ export default function Work() {
               <h3 className="project-title">MENTOR CONNECT</h3>
               <div className="project-decs">
                 <p>
-                  Ranked among the{" "}
-                  <span className="highlights">
-                    top 14 finalists in Setu's Hackathon
-                  </span>{" "}
-                  (Acquired by Pine Labs), my project provided users with a{" "}
-                  <span className="highlights">
-                    holistic overview of their finances
-                  </span>
-                  . Developed rapidly with Django, HTML/CSS, and integrated REST
-                  APIs from Setu's infrastructure. Enabled seamless integration
-                  and enhanced user experience in managing personal finances.
+                  Developed a cross-platform mobile application to connect
+                  aspiring professionals with industry mentors for guidance.
+                  This Flutter-built app leverages Firebase for real-time
+                  communication and document sharing, fostering a seamless user
+                  experience for both mentors and mentees.
                 </p>
               </div>
               <ul className="project-tech-list">
